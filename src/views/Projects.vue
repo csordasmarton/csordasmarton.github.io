@@ -75,18 +75,19 @@ export default {
           active: true,
           company: "Ericsson",
           keywords: [
-            "Python", "JavaScript", "Vue", "Thrift", "Docker",
-            "Static analysis", "clang", "PostgreSQL"
+            "Python", "JavaScript", "Vue", "Webpack", "Thrift", "Docker",
+            "Docker Swarm", "Static analysis", "clang", "PostgreSQL",
+            "Jenkins", "Github Actions"
           ],
           screenshot: "/images/projects/codechecker.png",
           text: `
             CodeChecker is a open-source static analysis infrastructure to find
-            potentional software bugs in C/C++ programs.<br><br>
+            potentional software bugs mainly in C/C++ programs.<br><br>
             I did the following:
             <ul>
               <li>Implementing most of the new features.</li>
-              <li>More than <b>+1100</b> Github commits under 2 years.</li>
-              <li>Full UI rewrite from dojo to <b>Vuejs</b>.</li>
+              <li>More than <b>+1400</b> Github commits.</li>
+              <li>Full UI rewrite from Dojo to <b>Vuejs</b>.</li>
               <li>Introduce <b>unit</b> and <b>e2e</b> UI tests.</li>
               <li>Snap / Pypi packages.</li>
               <li>Many performance improvements.</li>
@@ -94,7 +95,10 @@ export default {
               <li>Creating service setups and managing services.</li>
               <li>Database backups, database migrations and service
                   upgrades.</li>
+              <li>Organizing meetings and supervising newcomers.</li>
+              <li>Creating and managing Jenkins jobs and Github actions</li>
               <li>User supports.</li>
+              <li>Helping to open source contributors.</li>
             </u>
           `
         },

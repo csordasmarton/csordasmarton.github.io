@@ -37,7 +37,8 @@ export default {
           title: "Photographer",
           name: "Soter-Line",
           location: "Hungary",
-          from: "2020"
+          from: "2020",
+          to: "2021"
         },
         {
           title: "Master of Science in Computer Science",

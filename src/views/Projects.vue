@@ -97,8 +97,7 @@ export default {
                   upgrades.</li>
               <li>Organizing meetings and supervising newcomers.</li>
               <li>Creating and managing Jenkins jobs and Github actions</li>
-              <li>User supports.</li>
-              <li>Helping to open source contributors.</li>
+              <li>User support and helping to open source contributors.</li>
             </u>
           `
         },

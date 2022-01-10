@@ -180,6 +180,7 @@
           'Static analysis'
         ]"
         screenshot="/images/projects/codecompass.png"
+        :divider="false"
       >
         CodeCompass is an open-source code comprehension and navigation
         tool developed with large-scale software projects in mind.<br><br>

@@ -46,7 +46,7 @@
       </v-col>
     </v-row>
 
-    <v-divider />
+    <v-divider v-if="divider" />
   </v-timeline-item>
 </template>
 
@@ -62,6 +62,7 @@ export default {
     company: { type: String, default: null },
     keywords: { type: Array, default: () => ([]) },
     screenshot: { type: String, default: null },
+    divider: { type: Boolean, default: true }
   }
 };
 </script>

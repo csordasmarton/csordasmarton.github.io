@@ -49,6 +49,17 @@
         </ul>
       </Project>
 
+      <Project
+        title="csordasmarton.github.io"
+        link="https://csordasmarton.github.io/"
+        from="2021"
+        :keywords="[ 'Vue', 'Vuetify', 'webpack', 'Github actions', 'Git' ]"
+        screenshot="/images/projects/csordasmarton_github_io.png"
+      >
+        My personal web site implemented in <b>Vue.js</b> and deployed
+        automatically with a <b>Github action</b>.
+      </Project>
+
       <!-- eslint-disable max-len -->
       <Project
         title="Kelenföldi Református Énekeskönyv"
@@ -91,6 +102,7 @@
       </Project>
 
       <Project
+        class="pagebreak"
         title="Dicsdalok (Web)"
         link="http://dicsdalok.hu"
         from="2016"
@@ -113,10 +125,8 @@
         </ul>
       </Project>
 
-
       <!-- eslint-disable max-len -->
       <Project
-        class="pagebreak"
         title="Dicsdalok (Mobile)"
         link="https://play.google.com/store/apps/details?id=hu.csordasmarton.dicsdalok"
         from="2016"

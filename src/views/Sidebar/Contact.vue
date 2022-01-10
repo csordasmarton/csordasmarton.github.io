@@ -5,13 +5,23 @@
   >
     <v-row
       v-for="item in items"
-      :key="item"
+      :key="item.title"
     >
       <v-col class="pr-2" cols="auto">
         <v-icon :title="item.title">{{ item.icon }}</v-icon>
       </v-col>
       <v-col>
-        {{ item.value }}
+        <a
+          v-if="item.link"
+          :href="item.link"
+          target="_blank"
+        >
+          <span>{{ item.value }}</span>
+        </a>
+
+        <span v-else>
+          {{ item.value }}
+        </span>
       </v-col>
     </v-row>
   </Section>
@@ -26,10 +36,21 @@ export default {
   data() {
     return {
       items: [
+        // {
+        //   title: "Phone",
+        //   value: "+36-20-xxx-xxxx",
+        //   icon: "mdi-cellphone"
+        // },
         {
           title: "Email",
           value: "csordasmarton92@gmail.com",
           icon: "mdi-email"
+        },
+        {
+          title: "Web page",
+          value: "csordasmarton.github.io",
+          link: "https://csordasmarton.github.io",
+          icon: "mdi-web"
         },
         {
           title: "Location",

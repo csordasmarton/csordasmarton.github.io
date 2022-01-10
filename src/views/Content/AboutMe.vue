@@ -3,9 +3,12 @@
     title="About me"
     icon="mdi-information-outline"
   >
-    I'm an Experienced Software Developer with over <b>+{{ experience }}</b>
-    years of experience. I like learning new things and tools everyday. If I
-    don't know something I will learn it.
+    My name is <b>Márton Csordás</b> and I am an experienced software developer
+    with over <b>+{{ experience }} years</b> of experience. In these days I
+    mainly code in <b>Python</b> and <b>Javascript</b> / <b>Vue</b>. Currently
+    I am working for <i>Ericsson</i> on the <i>CodeChecker</i> open-source
+    project as a <b>Core developer</b>. I like learning new things and tools
+    everyday. If I don't know something I will learn it...
   </Section>
 </template>
 

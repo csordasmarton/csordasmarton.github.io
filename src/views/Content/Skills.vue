@@ -48,8 +48,7 @@ export default {
         ],
         [
           { title: "Vuejs", value: 90, icon: "mdi-vuejs" },
-          { title: "Symfony", value: 70, icon: "mdi-symfony" },
-          { title: "React", value: 50, icon: "mdi-react" },
+          { title: "React", value: 65, icon: "mdi-react" }
         ],
         [
           { title: "Databases (SQLite, PostgresSQL, MySQL)", value: 75,

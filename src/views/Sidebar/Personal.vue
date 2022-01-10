@@ -5,7 +5,7 @@
   >
     <v-row
       v-for="item in items"
-      :key="item"
+      :key="item.title"
     >
       <v-col class="pr-2" cols="auto">
         <v-icon :title="item.title">{{ item.icon }}</v-icon>

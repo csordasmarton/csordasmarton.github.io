@@ -15,7 +15,8 @@
           <v-list-item-content class="pa-0">
             <v-list-item-title>{{ item.title }}</v-list-item-title>
             <v-list-item-subtitle>
-              {{ item.name }}, {{ item.location }}
+              <a :href="item.link" target="_blank">{{ item.name }}</a>,
+              {{ item.location }}
             </v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
@@ -36,6 +37,7 @@ export default {
         {
           title: "Photographer",
           name: "Soter-Line",
+          link: "https://www.soterline.hu/",
           location: "Hungary",
           from: "2020",
           to: "2021"
@@ -43,6 +45,7 @@ export default {
         {
           title: "Master of Science in Computer Science",
           name: "Eötvös Loránd University",
+          link: "https://www.inf.elte.hu/",
           location: "Hungary",
           from: "2014",
           to: "2017"
@@ -50,6 +53,7 @@ export default {
         {
           title: "Bachelor of Science in Computer Science",
           name: "Eötvös Loránd University",
+          link: "https://www.inf.elte.hu/",
           location: "Hungary",
           from: "2011",
           to: "2014"

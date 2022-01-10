@@ -26,9 +26,10 @@ export default {
     return {
       items: [
         { name: "Photography", icon: "mdi-camera" },
-        { name: "Watching movies", icon: "mdi-filmstrip" },
-        { name: "Reading", icon: "mdi-book-open-variant" },
         { name: "Cooking", icon: "mdi-chef-hat" },
+        { name: "Reading", icon: "mdi-book-open-variant" },
+        { name: "Series", icon: "mdi-filmstrip" },
+        { name: "Playstation", icon: "mdi-google-controller" },
       ]
     };
   }

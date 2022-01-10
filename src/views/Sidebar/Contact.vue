@@ -6,6 +6,7 @@
     <v-row
       v-for="item in items"
       :key="item.title"
+      :class="item.className"
     >
       <v-col class="pr-2" cols="auto">
         <v-icon :title="item.title">{{ item.icon }}</v-icon>
@@ -39,7 +40,8 @@ export default {
         // {
         //   title: "Phone",
         //   value: "+36-20-xxx-xxxx",
-        //   icon: "mdi-cellphone"
+        //   icon: "mdi-cellphone",
+        //   className: "print-only"
         // },
         {
           title: "Email",
@@ -62,3 +64,15 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.print-only {
+  display: none;
+
+  @media print {
+    & {
+      display: flex;
+    }
+  }
+}
+</style>

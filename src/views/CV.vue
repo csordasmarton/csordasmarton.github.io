@@ -1,10 +1,10 @@
 <template>
   <v-container fill-height>
     <v-row>
-      <v-col cols="3">
+      <v-col :cols="12" :md="3">
         <Sidebar />
       </v-col>
-      <v-col cols="9">
+      <v-col :cols="12" :md="9">
         <Content />
       </v-col>
     </v-row>

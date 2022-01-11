@@ -11,7 +11,8 @@
       <v-col
         v-for="item in group"
         :key="item.title"
-        cols="6"
+        :cols="12"
+        :md="6"
       >
         <div class="align-center">
           <v-icon>{{ item.icon }}</v-icon>

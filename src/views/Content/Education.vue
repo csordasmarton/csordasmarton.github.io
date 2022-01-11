@@ -7,7 +7,7 @@
       v-for="item in items"
       :key="item.title"
     >
-      <v-col cols="2">
+      <v-col cols="12" :md="2">
         {{ item.from }} - {{ item.to }}
       </v-col>
       <v-col>

@@ -5,7 +5,7 @@
     class="pa-0"
   >
     <v-row>
-      <v-col cols="1" align-self="center">
+      <v-col cols="12" :md="1" align-self="center">
         <span>{{ from }}</span>
         <span v-if="active">-</span>
         <span v-else-if="to">- {{ to }}</span>
@@ -37,7 +37,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="2">
+      <v-col cols="12" :md="2">
         <a :href="publicPath(screenshot)" target="_blank">
           <v-img
             :src="publicPath(screenshot)"

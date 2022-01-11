@@ -7,7 +7,7 @@
       v-for="item in items"
       :key="item.title"
     >
-      <v-col cols="3">
+      <v-col cols="12" :md="2">
         {{ item.at }}
       </v-col>
       <v-col>

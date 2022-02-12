@@ -60,9 +60,7 @@
               <a
                 href="http://github.com/Ericsson/codecheckervsCodePlugin/"
                 target="_blank"
-              >
-                extension
-              </a>
+              >extension</a>
             </b>.
           </li>
           <li>Writing <b>documentations</b></li>

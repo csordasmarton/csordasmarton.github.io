@@ -11,11 +11,11 @@
         :active="true"
         company="Ericsson"
         :keywords="[
-          'Python', 'JavaScript', 'Vue', 'Vuex', 'Vuetify', 'Dojo', 'Webpack',
-          'nightwatch', 'jest', 'Thrift', 'Docker', 'Docker Swarm',
-          'Static analysis', 'C++ compilers', 'PostgreSQL', 'Jenkins',
-          'Github Actions', 'Linux', 'Bash', 'Scrum', 'Sprint', 'Openalm',
-          'Jira'
+          'Python', 'JavaScript', 'TypeScript', 'Vue', 'Vuex', 'Vuetify',
+          'Dojo', 'Webpack', 'nightwatch', 'jest', 'Thrift', 'Docker',
+          'Docker Swarm', 'Static analysis', 'C++ compilers', 'PostgreSQL',
+          'Jenkins', 'Github Actions', 'Linux', 'Bash', 'Scrum', 'Sprint',
+          'Openalm', 'Jira'
         ]"
         screenshot="/images/projects/codechecker.png"
       >
@@ -26,12 +26,56 @@
         Over the years I did the following:
         <ul>
           <li>Implementing most of the new features.</li>
-          <li>More than <b>+1400</b> Github commits.</li>
+          <li>
+            More than
+            <a
+              href="https://github.com/Ericsson/codechecker/graphs/contributors"
+              target="_blank"
+            >
+              <b>+1450</b>
+            </a>
+            Github commits.
+          </li>
           <li>Full UI rewrite from <b>Dojo</b> to <b>Vuejs</b>.</li>
           <li>Writing <b>unit</b>, <b>functional</b> and <b>e2e</b> tests.</li>
-          <li><b>Snap</b> and <b>Pypi</b> packages.</li>
+          <li>
+            <a
+              href="https://snapcraft.io/codechecker"
+              target="_blank"
+            >
+              <b>Snap</b>
+            </a>
+            and
+            <a
+              href="https://pypi.org/project/codechecker/"
+              target="_blank"
+            >
+              <b>Pypi</b>
+            </a>
+            packages.
+          </li>
+          <li>
+            <b>
+              Visual Studio Code
+              <a
+                href="http://github.com/Ericsson/codecheckervsCodePlugin/"
+                target="_blank"
+              >
+                extension
+              </a>
+            </b>.
+          </li>
           <li>Writing <b>documentations</b></li>
-          <li>Creating <b>docker</b> images.</li>
+          <li>
+            Creating
+            <a
+              href="https://hub.docker.com/r/codechecker/codechecker-web"
+              target="_blank"
+            >
+              <b>docker</b>
+            </a>
+            images.
+          </li>
           <li>Creating <b>service</b> setups and managing services.</li>
           <li>
             <b>Database</b> backups, database migrations and service upgrades.

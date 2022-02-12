@@ -253,9 +253,3 @@ export default {
   components: { Project, Section }
 };
 </script>
-
-<style lang="scss" scoped>
-@media print {
-  .pagebreak { page-break-before: always; }
-}
-</style>

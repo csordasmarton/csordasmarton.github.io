@@ -9,7 +9,7 @@
       </v-col>
     </v-row>
 
-    <v-row>
+    <v-row class="pagebreak">
       <v-col>
         <v-card outlined>
           <Projects />

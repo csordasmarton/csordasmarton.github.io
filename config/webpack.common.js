@@ -11,6 +11,7 @@ const helpers = require('./helpers');
 function sassLoaderOptions(indentedSyntax=false) {
   return {
     implementation: require('sass'),
+    prependData: `@import "~@/variables.scss"` + (indentedSyntax ? '' : ';'),
     sassOptions: { indentedSyntax },
   }
 }

@@ -7,7 +7,7 @@
       v-for="item in items"
       :key="item.title"
     >
-      <v-col cols="12" :md="2">
+      <v-col cols="12" :md="3">
         {{ item.at }}
       </v-col>
       <v-col>
@@ -37,13 +37,13 @@ export default {
           title: "Docker administration",
           name: "Component Soft",
           location: "Hungary",
-          at: "4-6. September, 2018"
+          at: "September, 2018"
         },
         {
           title: "Kubernetes administration",
           name: "Component Soft",
           location: "Hungary",
-          at: "24-26. September, 2018"
+          at: "September, 2018"
         },
       ]
     };

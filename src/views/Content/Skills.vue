@@ -38,20 +38,18 @@ export default {
     return {
       items: [
         [
-          { title: "Python", value: 85, icon: "mdi-language-python" },
           { title: "JavaScript", value: 85, icon: "mdi-language-javascript" },
+          { title: "Typescript", value: 85, icon: "mdi-language-typescript" },
+          { title: "Python", value: 85, icon: "mdi-language-python" },
           { title: "C/C++", value: 70, icon: "mdi-language-cpp" },
           { title: "Java / Kotlin", value: 65, icon: "mdi-language-java" },
-        ],
-        [
+
           { title: "CSS", value: 75, icon: "mdi-language-css3" },
           { title: "Sass", value: 65, icon: "mdi-sass" },
-        ],
-        [
+
           { title: "Vuejs", value: 90, icon: "mdi-vuejs" },
-          { title: "React", value: 65, icon: "mdi-react" }
-        ],
-        [
+          { title: "React", value: 65, icon: "mdi-react" },
+
           { title: "Databases (SQLite, PostgresSQL, MySQL)", value: 75,
             icon: "mdi-database" },
           { title: "Git", value: 75, icon: "mdi-git" },

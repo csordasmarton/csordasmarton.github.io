@@ -7,7 +7,7 @@
       v-for="item in items"
       :key="item.title"
     >
-      <v-col cols="12" :md="2">
+      <v-col cols="12" :md="3">
         {{ item.from }} - {{ item.to }}
       </v-col>
       <v-col>
@@ -17,6 +17,9 @@
             <v-list-item-subtitle>
               <a :href="item.link" target="_blank">{{ item.name }}</a>,
               {{ item.location }}
+            </v-list-item-subtitle>
+            <v-list-item-subtitle v-if="item.thesis">
+              Thesis: {{ item.thesis }}
             </v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
@@ -48,7 +51,8 @@ export default {
           link: "https://www.inf.elte.hu/",
           location: "Hungary",
           from: "2014",
-          to: "2017"
+          to: "2017",
+          thesis: "Effective C++ pointer analysis"
         },
         {
           title: "Bachelor of Science in Computer Science",
@@ -56,7 +60,8 @@ export default {
           link: "https://www.inf.elte.hu/",
           location: "Hungary",
           from: "2011",
-          to: "2014"
+          to: "2014",
+          thesis: "Creating a web store with Symfony framework"
         },
       ]
     };

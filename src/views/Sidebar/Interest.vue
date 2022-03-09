@@ -9,7 +9,7 @@
         :key="item.name"
         class="text-center"
       >
-        <v-icon class="pa-1 outlined">{{ item.icon }}</v-icon>
+        <v-icon class="pa-1 mx-4 outlined">{{ item.icon }}</v-icon>
         <div>{{ item.name }}</div>
       </v-col>
     </v-row>

@@ -55,6 +55,18 @@ export default {
           icon: "mdi-web"
         },
         {
+          title: "GitHub Profile",
+          value: "GitHub Profile",
+          link: "https://github.com/csordasmarton",
+          icon: "mdi-github"
+        },
+        {
+          title: "Linkedin",
+          value: "Linkedin",
+          link: "https://www.linkedin.com/in/csordasmarton/",
+          icon: "mdi-linkedin"
+        },
+        {
           title: "Location",
           value: "Budapest",
           icon: "mdi-map-marker"

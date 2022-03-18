@@ -149,6 +149,10 @@ module.exports = {
         {
           from: helpers.root('public', 'assets'),
           to: helpers.root('dist', 'public', 'assets')
+        },
+        {
+          from: helpers.root('public', 'Marton_Csordas_CV.pdf'),
+          to: helpers.root('dist')
         }
       ]
     }),

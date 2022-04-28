@@ -5,7 +5,7 @@
   >
     <v-timeline dense>
       <WorkExperience
-        from="2015"
+        from="July, 2015"
         to="Present"
         company="Ericsson"
       >
@@ -143,8 +143,8 @@
       </WorkExperience>
 
       <WorkExperience
-        from="2013"
-        to="2014"
+        from="October, 2013"
+        to="December, 2014"
         company="Pontez Holding Kft."
       >
         <template #default>

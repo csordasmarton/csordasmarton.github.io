@@ -14,7 +14,7 @@
 
     <Award />
 
-    <v-divider />
+    <v-divider class="pagebreak" />
 
     <Skills />
   </v-card>

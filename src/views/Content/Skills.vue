@@ -44,10 +44,10 @@ export default {
           { title: "C/C++", value: 70, icon: "mdi-language-cpp" },
           { title: "Java / Kotlin", value: 65, icon: "mdi-language-java" },
 
-          { title: "CSS / Sass", value: 75, icon: "mdi-language-css3" },
+          { title: "CSS / Sass / Less", value: 75, icon: "mdi-language-css3" },
 
           { title: "Vuejs", value: 90, icon: "mdi-vuejs" },
-          { title: "React", value: 65, icon: "mdi-react" },
+          { title: "React", value: 90, icon: "mdi-react" },
           { title: "Angular", value: 65, icon: "mdi-angular" },
 
           { title: "Databases (SQLite, PostgresSQL, MySQL)", value: 75,

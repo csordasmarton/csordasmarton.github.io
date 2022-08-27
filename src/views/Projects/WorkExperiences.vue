@@ -5,8 +5,24 @@
   >
     <v-timeline dense>
       <WorkExperience
-        from="July, 2015"
+        from="May, 2022"
         to="Present"
+        company="EPAM Systems"
+      >
+        <template #default>
+          <Keywords
+            :value="[
+              'React', 'Redux', 'Javascript', 'TypeScript', 'Storybooks',
+              'Jest', 'Cypress', 'Linux', 'Bash', 'Git', 'GitLab', 'Jira'
+            ]"
+          />
+          Developing a web based banking application by using React.
+        </template>
+      </WorkExperience>
+
+      <WorkExperience
+        from="July, 2015"
+        to="May, 2022"
         company="Ericsson"
       >
         <template #default>
@@ -36,6 +52,13 @@
             tool developed with large-scale software projects in mind.
             <br><br>
 
+            In this project I was responsible to implement most of the new features
+            and bug fixes, create a new pluginable architecture, introduce a modern
+            build system and others. I used different programming languages and
+            technologies in this project such as <i>C/C++</i>, <i>JavaScript</i>,
+            <i>HTML</i>, <i>CSS</i>, <i>CMake</i>, <i>Jenkins</i>, <i>Git</i>.
+            I really loved it because I also learned a lot from my colleagues.<br><br>
+
             I did the following:
             <ul>
               <li>More than <b>+170</b> commits.</li>
@@ -64,7 +87,23 @@
           >
             CodeChecker is an open-source analyzer tooling, defect database
             and viewer extension to find, view and manage potentional
-            software bugs in your product.<br><br>
+            software bugs in your product.
+            On this project I was responsible to implement most of the new
+            features, provide bug fixes, write test cases and documentations,
+            communicate with the open-source and internal users, etc. I also did
+            service management things in this project such as to create the
+            service architecture, manage it, creating backups and do the
+            upgrades.
+            I used many programming languages and technologies in this
+            project such as <i>Python</i>, <i>JavaScript</i>, <i>TypeScript</i>,
+            <i>CSS</i>, <i>SASS</i>, <i>Vue.js</i>, <i>Docker</i>,
+            <i>PostgreSQL</i>, <i>Jenkins</i> etc.<br><br>
+
+            Over the years on this project I also became a <i>Lead developer</i>. As a
+            Lead Developer I was responsible for the architectural vision, code reviews,
+            sprint and roadmap planning, release management, supervising newcomers and
+            interns, quality of the product, building the open-source community and
+            many more.<br><br>
 
             Over the years I did the following:
             <ul>

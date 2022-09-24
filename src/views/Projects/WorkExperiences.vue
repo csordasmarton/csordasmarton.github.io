@@ -13,10 +13,12 @@
           <Keywords
             :value="[
               'React', 'Redux', 'Javascript', 'TypeScript', 'Storybooks',
-              'Jest', 'Cypress', 'Linux', 'Bash', 'Git', 'GitLab', 'Jira'
+              'Jest', 'Cypress', 'Java', 'Sprint Boot', 'JUnit', 'Linux',
+              'Bash', 'Git', 'GitLab', 'Jira'
             ]"
           />
-          Developing a web based banking application by using React.
+          Developing a web based banking application by using React and
+          Spring Boot.
         </template>
       </WorkExperience>
 

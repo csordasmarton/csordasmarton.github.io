@@ -5,8 +5,7 @@
   >
     My name is <b>Márton Csordás</b> and I am an experienced
     <i>Full Stack Software Developer</i> with over
-    <b>+{{ experience }} years</b> of experience. I like learning new things and
-    tools every day. If I don't know something I will learn it.<br><br>
+    <b>+{{ experience }} years</b> of experience.<br><br>
 
     I have successfully completed my <i>Bachelor’s</i> and <i>Master’s</i>
     Degrees in <i>Computer Science</i> in Budapest at the
@@ -16,7 +15,8 @@
     <i>Git</i>, <i>Databases</i>, <i>Compilers</i> etc.<br><br>
 
     Over the years I worked for multiple multinational companies on multiple
-    projects by using different programming languages.<br><br>
+    projects by using different programming languages. I like learning new
+    things and tools every day. If I don't know something I will learn it.
   </Section>
 </template>
 

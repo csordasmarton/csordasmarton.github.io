@@ -41,8 +41,8 @@ export default {
           { title: "JavaScript", value: 85, icon: "mdi-language-javascript" },
           { title: "Typescript", value: 80, icon: "mdi-language-typescript" },
           { title: "Python", value: 85, icon: "mdi-language-python" },
-          { title: "C/C++", value: 70, icon: "mdi-language-cpp" },
-          { title: "Java / Kotlin", value: 65, icon: "mdi-language-java" },
+          { title: "Java / Kotlin", value: 70, icon: "mdi-language-java" },
+          { title: "C/C++", value: 65, icon: "mdi-language-cpp" },
 
           { title: "CSS / Sass / Less", value: 75, icon: "mdi-language-css3" },
 

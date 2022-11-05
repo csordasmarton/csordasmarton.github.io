@@ -13,12 +13,37 @@
           <Keywords
             :value="[
               'React', 'Redux', 'Javascript', 'TypeScript', 'Storybooks',
-              'Jest', 'Cypress', 'Java', 'Sprint Boot', 'JUnit', 'Linux',
-              'Bash', 'Git', 'GitLab', 'Jira'
+              'Jest', 'Cypress', 'Java', 'Sprint Boot', 'JUnit', 'Json Schema',
+              'Linux', 'Bash', 'Git', 'GitLab', 'Jira'
             ]"
           />
-          Developing a web based banking application by using React and
-          Spring Boot.
+          Developing a web based trading application by using React and
+          Spring Boot.<br><br>
+
+          I did the following:
+          <ul>
+            <li>
+              Design and develop client side application using <i>React</i>,
+              <i>Redux</i>, <i>TypeScript</i>, <i>Less</i>.
+            </li>
+            <li>
+              Develop server side using <i>Java</i>, <i>Spring Boot</i>,
+              <i>JSON Schema</i> and <i>REST</i>.
+            </li>
+            <li>Implement new features and provide bug fixes.</li>
+            <li>
+              Write test cases on both frontend (<i>Jest</i>, <i>Cypress</i>)
+              and backend (<i>JUnit</i>) side.
+            </li>
+            <li>
+              Create new GitLab Pipeline jobs to automatize running test
+              cases.
+            </li>
+            <li>
+              Active participation in team ceremonies like planning, grooming.
+            </li>
+            <li>Demo the outcome of sprints to stakeholders.</li>
+          </ul>
         </template>
       </WorkExperience>
 

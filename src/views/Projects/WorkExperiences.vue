@@ -13,12 +13,35 @@
           <Keywords
             :value="[
               'React', 'Redux', 'Javascript', 'TypeScript', 'Storybooks',
-              'Jest', 'Cypress', 'Java', 'Sprint Boot', 'JUnit', 'Json Schema',
-              'Linux', 'Bash', 'Git', 'GitLab', 'Jira'
+              'Jest', 'Cypress', 'Java', 'Sprint Boot', 'JUnit', 'Lerna',
+              'Nx', 'Json Schema', 'Linux', 'Bash', 'Git', 'GitLab', 'Jira'
             ]"
           />
-          Developing a web based trading application by using React and
+          Developing web based trading applications by using React and
           Spring Boot.<br><br>
+
+          I worked on several applications:
+          <ul>
+            <li>
+              <b>Structured product</b>: access different exchanges across time
+              zones and capture rapidly changing market opportunities.
+            </li>
+            <li>
+              <b>Foreign exchange</b>: flexible access to the foreign exchange
+              market for spot, forward and swap trades. Get price information
+              in real time and an overview of current transactions.
+            </li>
+            <li>
+              <b>Money market</b>: money market investment with a fixed term,
+              a fixed amount and a fixed interest rate.
+            </li>
+            <li>
+              <b>Securitized internal</b>: get flexible access to the global
+              markets, whether trading equities, funds, fixed income or
+              executing across asset classes.
+            </li>
+          </ul>
+          <br>
 
           I did the following:
           <ul>

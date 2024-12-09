@@ -5,8 +5,8 @@
   "author": "Márton Csordás",
   "private": true,
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
-    "server:dev": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --progress --config config/webpack.dev.js",
+    "build": "cross-env NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider webpack --config config/webpack.prod.js",
+    "server:dev": "cross-env NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server --hot --inline --progress --config config/webpack.dev.js",
     "server:prod": "http-server dist -c-1 --cors",
     "server": "npm run server:dev",
     "start": "npm run server",
